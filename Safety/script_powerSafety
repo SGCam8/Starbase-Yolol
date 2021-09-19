@@ -1,0 +1,20 @@
+a=10000 
+if :emgbat<a then :chair=0 :mine=0 :minelon=0 :cruise=0 goto2 end
+
+//emgbat is the power field for an emergency battery with lowest priority value on the ship
+//other values are things you want to happen when power is critically low
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
