@@ -1,0 +1,20 @@
+opt=3 n="\n" g=10000 h=1000 i=100 q=20
+if :StatCycle==1 then opt+=2 :StatCycle=0 end gotoopt
+a="Summary" b="Gen: "+:curGen*3/i*i c="Bat: "+:curBat/g*i f=""
+d="Rod: "+:curRod/:maxRod*i e="Prp: "+:curProp/:maxProp*i gotoq
+a="Integrity" b="WC: "+:WarpClass c="Errors: "+:DuraErrors
+d="" e="" f="" gotoq
+a="Controls" b="Cruise: "+:cruise c="Precise: "+:precision
+d="Power" e="WarmUp: "+:warmup f="MasterOn: "+(1-:MasterOff) gotoq
+a="Mining" b="Range: "+(:minerf/h*h) c="Manual: "+:manual
+d="Lasers: "+:mine e="Ready: "+:curgen>27 f="Bat: "+:curbat/100 gotoq
+a="Scanning" b="Range: "+(:minerf/h*h) d="" e="" f=""
+if :scanstring==0 then c="No Scan" else c=:scanstring end gotoq
+opt=3 goto2
+
+
+
+//a,b,c,d,e,f   name,stat1,stat2,stat3,stat4,stat5
+
+goto1
+:StatDisp=n+a+n+b+n+c+n+d+n+e+n+f goto2
