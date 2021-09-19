@@ -1,0 +1,19 @@
+:tdx=:xtarget-:pox :tdy=:ytarget-:poy :tdz=:ztarget-:poz 
+:tma=((:tdx*:tdx+:tdy*:tdy+:tdz*:tdz)^0.5) 
+:tdt=((:tma/:lspeed)/60)/100*100 goto1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
