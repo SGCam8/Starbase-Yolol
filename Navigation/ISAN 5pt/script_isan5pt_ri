@@ -1,0 +1,19 @@
+o=160000 e=8*o p=1000000 x=0
+z="origin_" mr=z+"north" br=z+"south" cr=z+"east" z+="west"
+u=e*3/13 l=2*o mm=l*13/19 k=e*3/19 nn=l*13/3 
+t=p-:isri t*=t x/=:isri :itri=br x=5 goto8*(:_!="")
+i=p-:isri i*=i x/=:isri :itri=cr x=6 goto8
+g=p-:isri g*=g x/=:isri :itri=z x=7 goto8
+f=p-:isri f*=f x/=:isri :itri=mr x=4 goto8
+:ixri=(t+i)/e+g/u-f/k :iyri=i/l-t/mm+(g+f)/nn :izri=(g+f-t-i)/o gotox
+
+
+
+
+
+
+
+
+
+
+
