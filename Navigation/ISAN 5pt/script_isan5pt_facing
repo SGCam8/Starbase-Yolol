@@ -1,0 +1,19 @@
+xup=:ixto-:ixbo yup=:iyto-:iybo zup=:izto-:izbo
+mup=(xup*xup+yup*yup+zup*zup)^0.5 :roll=yup/mup*180
+rx=(:ixto+:ixbo+:ixle+:ixri)/4 ry=(:iyto+:iybo+:iyle+:iyri)/4
+rz=(:izto+:izbo+:izle+:izri)/4 fx=:ixfr-rx fy=:iyfr-ry fz=:izfr-rz
+mfa=(fx*fx+fy*fy+fz*fz)^0.5 :facx=fx/mfa :facy=fy/mfa :facz=fz/mfa
+goto1
+
+
+
+
+
+
+
+
+
+
+
+
+
