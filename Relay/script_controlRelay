@@ -1,0 +1,19 @@
+:precise=100-75*:precision :cruze=100*(1-:cruise) goto1
+
+//relays basic controls from 0-1 buttons to values
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
