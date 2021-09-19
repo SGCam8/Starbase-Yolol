@@ -1,0 +1,19 @@
+if :Leg==1 then xa=:pox ya=:poy za=:poz :Leg=0 d=0 end
+:ldx=:pox-xa :ldy=:poy-ya :ldz=:poz-za d+=0.63
+:lma=((:ldx*:ldx+:ldy*:ldy+:ldz*:ldz)^0.5) :lSpeed=:lma/d goto1
+
+//tick time 0.60 -> 0.63
+
+
+
+
+
+
+
+
+
+
+
+
+
+
