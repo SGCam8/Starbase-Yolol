@@ -1,0 +1,19 @@
+x=(:ixfr+:ixto+:ixbo+:ixle+:ixri) y=(:iyfr+:iyto+:iybo+:iyle+:iyri)
+:poz=(:izfr+:izto+:izbo+:izle+:izri)/5 :pox=x/5 :poy=y/5 goto1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
