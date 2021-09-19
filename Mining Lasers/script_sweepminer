@@ -1,0 +1,20 @@
+if :Mine==0 then :mineLOn=0 :tp=0 :tr=0 goto1 end
+:mineLOn=1 r=0 w=0 if :manual then :tpmin=25 goto1 end goto13
+if r<maxradius then goto 4 else :Mine=0 goto 1 end
+:tp=-r :tr=r goto(5*:Mine)
+if :tpc!=:tp then goto5 else if :trc!=:tr then goto5 end end
+:tp=-r :tr=-r goto(7*:Mine)
+if :tpc!=:tp then goto7 else if :trc!=:tr then goto7 end end
+:tp=-r-ddr :tr=-1*(r+ddr) goto(9*:Mine)
+if :tpc!=:tp then goto9 else if :trc!=:tr then goto9 end end
+:tp=-r-ddr :tr=r+ddr goto(11*:Mine)
+if :tpc!=:tp then goto11 else if :trc!=:tr then goto11 end end
+r+=2*ddr goto(3*:Mine)
+:tpmin=23.5
+trackspeed=0.025 radialspeed=0.4 maxradius=13
+:tpv=trackspeed :trv=trackspeed ddr=radialspeed goto3
+
+//Scriptminer by SGCam
+//settings are in line 14
+//radialspeed can only be to 2 decimals
+//maxradius cannot be more than 13
