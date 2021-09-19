@@ -1,0 +1,20 @@
+opt=3 n="\n" i="x: " j="y: " k="z: " f=1000 q=20
+if :NavCycle==1 then opt+=2 :NavCycle=0 end gotoopt
+a="Position" x=:pox/f*f y=:poy/f*f z=:poz/f*f
+b=""  d="" c=:lspeed/f*f t="spd: " gotoq
+a="Delta" x=:ldx/f*f y=:ldy/f*f z=:ldz/f*f
+b=:lma/f*f d="dist: " c=:lspeed/f*f gotoq
+a="Heading" x=:ldx/:lma*f y=:ldy/:lma*f z=:ldz/:lma*f 
+b="" d=b c=b t=b gotoq
+a="Facing" x=:facx*f y=:facy*f z=:facz*f 
+c=:roll/f*f t="roll: " gotoq
+a="Target" x=:tdx/:tma*f y=:tdy/:tma*f z=:tdz/:tma*f 
+b=:tma/f*f c=:tdt d="dist: " t="mins: " gotoq
+a="Align" x=(:tdx/:tma-:facx)*f y=(:tdy/:tma-:facy)*f
+z=(:tdz/:tma-:facz)*f b="" d=b c=:roll/f*f t="roll: " gotoq
+opt=3 goto2
+
+//a,x,y,z,b,c  name, x, y, z, alt1, alt2
+
+goto1
+:NavDisp=n+a+n+i+x+n+j+y+n+k+z+n+d+b+n+t+c goto2
