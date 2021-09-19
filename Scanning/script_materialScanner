@@ -1,0 +1,19 @@
+n="\n" s=n l=0 IF :s == 0 THEN GOTO1 ELSE :Scan=1 END
+IF l<:r THEN :i=l s+=:v+n+:m+n l+=1 GOTO2 END
+if s != n THEN  :Reset=1 END
+:scanstring="Shell: "+m1+" "+(v1/1728)+n+"Core: "+m2+" "+(v2/1728)
+goto1
+
+
+//this script is currently garbage, do not use
+
+
+
+
+
+
+
+
+
+
+
