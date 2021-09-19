@@ -1,0 +1,19 @@
+dx=:pox-xa dy=:poy-ya dz=:poz-za xa=:pox ya=:poy za=:poz
+ma=((dx*dx+dy*dy+dz*dz)^0.5) :iSpeed=(as+bs+cs+ds+es+fs+gs+ma/0.63)/8
+gs=fs fs=es es=ds ds=cs cs=bs bs=as as=:iSpeed goto1
+
+
+
+
+
+
+
+//moving average over 16.8 seconds
+//very very inaccurate
+
+
+
+
+
+
+
