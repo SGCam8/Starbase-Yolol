@@ -1,0 +1,19 @@
+:ODY="\n     /\\n    /  \\n    \  /\n     \/\n   / /\ \\n   \/  \/"
+:script_ody=20
+:ODY="\n      \n     /\\n     \/\n      \n    /  \\n    \/\/"
+:script_ody=2
+:ODY="\n      \n      \n      \n      \n     /\\n     \/"
+:script_ody=2
+:ODY="\n      \n      \n      \n      \n      \n      "
+:script_ody=2
+:ODY="\n      \n      \n      \n      \n     /\\n     \/"
+:script_ody=2
+:ODY="\n      \n     /\\n     \/\n      \n    /  \\n    \/\/"
+:script_ody=1
+goto1
+
+
+//name text panel as ODY
+//name basic yolol chip as script_ody
+
+
