@@ -1,1 +1,62 @@
-instructions here
+---memory_fields x33---memoryChip x4---
+ixfr
+iyfr
+izfr
+ixto
+iyto
+izto
+ixbo
+iybo
+izbo
+ixle
+iyle
+izle
+ixri
+iyri
+izri
+pox	
+poy
+poz
+roll
+facx
+facy
+facz
+ldx
+ldy
+ldz
+lma
+lspeed
+ispeed
+tdx
+tdy
+tdz
+tma
+tdt
+
+---navigation recievers x5---
+ListenAngle=180 (for all recievers)
+SignalStrength is renamed isfr,isto,isbo,isle,isri (based on position)
+TargetMessage is renamed itfr,itto,itbo,itle,itri (based on position)
+fr is the front reciever
+to is the top rear reciever
+bo is the bottom rear reciever
+le is the left rear reciever
+ri is the right rear reciever
+
+---other_components---
+hybrid button: _=0, ButtonOnStateValue="", ButtonOffStateValue="Rebooting", ButtonStyle=1
+any button: leg=0, ButtonStyle=1
+any button: NavCycle=0, ButtonStyle=1
+text panel: NavDisp=0
+
+~~~SETUP INSTRUCTIONS~~~
+place 4 navigation recievers near the back of the ship at the same z position, and radially equidistant from the z axis (these are to,bo,le,ri)
+*if you want the roll calculation to be correct, the top and bottom rear recievers (to,bo) must be exactly vertical from each other
+place 1 navigation reciever near the front of the ship on the z axis (x=0,y=0) (this is fr)
+get 5 basic yolol chips, 5 advanced yolol chips, 5 memory chips, and whatever rack layout you prefer
+hook up all the "other components"
+
+~~~USAGE INSTRUCTIONS~~~
+press "_" hybrid button to reset the whole system
+press "leg" button to refresh the leg calculations (this should be pressed any time you make a course or speed change)
+press "navcycle" botton to switch which screen is displayed on the NavDisp text panel (there are 6 screens)
