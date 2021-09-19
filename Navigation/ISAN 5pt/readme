@@ -1,3 +1,7 @@
+--chip requirements--
+basic: script_isan5pt_fr, script_isan5pt_to, script_isan5pt_bo, script_isan5pt_le, script_isan5pt_ri, script_isan5pt_position
+advanced: script_isan5pt_facing, script_isan5pt_leg, script_isan5pt_instant
+
 ---memory_fields x33---memoryChip x4---
 ixfr
 iyfr
