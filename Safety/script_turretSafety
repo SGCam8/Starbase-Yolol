@@ -1,0 +1,19 @@
+:tpmin=25 :tpmax=110 :trmin=-90 :trmax=90 :tp=0 tr=0
+if :tpc<-20 then :mine=0 :minelon=0 end goto2
+
+//prevents mining turrets from hitting your ship
+//in case of turret/turntable glitches
+
+//tpmin is minimum turret pitch, and so on
+//tp is target turret pitch, and so on
+//tpc is current turret pitch
+//mine is for mining scripts
+//minelon is for turning off mining lasers immediately
+
+
+
+
+
+
+
+
