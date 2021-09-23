@@ -1,8 +1,8 @@
 n="\n" s="" l=0 IF :scanon == 0 THEN goto1 ELSE :scan=1 END
 IF l<:srez THEN :sid=l s+=(:svol/1728)+n+:smat+n l+=1 goto2 END
 if s != n THEN :sReset=1 goto4 END goto1
-:scanstring=s
-goto1
+:scanstring=s goto1
+
 
 //On button = scanOn
 //Textbox name = scanstring (or pass to an mfd)
