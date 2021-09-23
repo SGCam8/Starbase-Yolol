@@ -1,19 +1,19 @@
-n="\n" s=n l=0 IF :s == 0 THEN GOTO1 ELSE :Scan=1 END
-IF l<:r THEN :i=l s+=:v+n+:m+n l+=1 GOTO2 END
-if s != n THEN  :Reset=1 END
-:scanstring="Shell: "+m1+" "+(v1/1728)+n+"Core: "+m2+" "+(v2/1728)
+n="\n" s="" l=0 IF :scanon == 0 THEN goto1 ELSE :scan=1 END
+IF l<:srez THEN :sid=l s+=(:svol/1728)+n+:smat+n l+=1 goto2 END
+if s != n THEN :sReset=1 goto4 END goto1
+:scanstring=s
 goto1
 
-
-//this script is currently garbage, do not use
-
-
-
-
-
-
-
-
+//On button = scanOn
+//Textbox name = scanstring (or pass to an mfd)
+//
+//scanner value settings:
+//Index is sid
+//ScanResults is srez
+//Material is smat
+//Volume is svol
+//Scan is Scan
+//Reset is sReset
 
 
 
