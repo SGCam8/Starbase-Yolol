@@ -1,0 +1,20 @@
+d=:minerf-14 v=d-l l=d t=d+10*v goto(((d<75)*:scanon)+1-:manual)
+t*=1 z=0.2 :FcuBackward=-t*(t<0) :FcuForward=z*t*(t>0) goto1
+
+
+//params
+//z=relative power of forward thrusters to reverse
+
+
+//runs when:
+//within 75m, laser on target, manual off, scanon on
+//stops running when within 1m of 14m and not moving much
+
+
+
+
+
+
+//minerf = rangefinder distance
+//fcuforward, fcubackward
+//scanon, manual
