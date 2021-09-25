@@ -8,7 +8,7 @@ t*=1 z=0.2 :FcuBackward=-t*(t<0) :FcuForward=z*t*(t>0) goto1
 
 //runs when:
 //within 75m, laser on target, manual off, scanon on
-//stops running when within 1m of 14m and not moving much
+//centers at 14m
 
 
 
